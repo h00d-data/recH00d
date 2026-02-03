@@ -1,24 +1,39 @@
-RecH00D
+# RecH00D
 
-Domain recognition - Script
+## Domain Recognition Script
 
-Discover subdomains / brute-force. Discover only resolved subdomains. Discover subdomains IP for data analysis. 
-Write to one unique output file specified by the user all or only resolved subdomains. Write results to automatically named TXT output file(s).
+Ferramenta automatizada para enumeração de subdomínios focada em
+reconhecimento ofensivo, bug bounty e análise de dados.
 
-You need to install on your Kali Linux:
+---
 
-$ git clone https://github.com/findomain/findomain.git
-$ cd findomain
-$ cargo build --release
-$ sudo cp target/release/findomain /usr/bin/
-$ findomain
+## 🚀 Features
 
-sudo apt install assetfinder
-sudo apt install amass
-sudo apt install subfinder
-sudo apt install golang-go
-sudo apt install seclists
+- Enumeração passiva de subdomínios
+- Consolidação automática dos resultados
+- Remoção de duplicados
+- Resolução DNS para filtrar subdomínios válidos
+- Saída organizada por domínio e timestamp
 
-go install github.com/tomnomnom/waybackurls@latest
+---
 
-Good Luck!
+## 📦 Requirements
+
+- Kali Linux
+- findomain
+- assetfinder
+- subfinder
+- amass
+- dnsx
+- golang
+
+---
+
+## 🔧 Installation
+
+Instale as dependências e depois:
+
+```bash
+git clone https://github.com/seuuser/RecH00D.git
+cd RecH00D
+chmod +x src/rech00d.sh
