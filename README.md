@@ -37,3 +37,20 @@ Instale as dependências e depois:
 git clone https://github.com/seuuser/RecH00D.git
 cd RecH00D
 chmod +x src/rech00d.sh
+
+▶️ Usage
+./src/rech00d.sh example.com
+
+Salvos:
+output/example.com-YYYYMMDD_HHMMSS/
+
+
+☠️ Disclaimer
+
+Use apenas em ambientes autorizados.
+O autor não se responsabiliza por uso indevido.
+
+---
+
+
+
