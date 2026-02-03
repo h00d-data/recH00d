@@ -41,7 +41,9 @@ chmod +x src/rech00d.sh
 ▶️ Usage
 ./src/rech00d.sh example.com
 
-Salvos:
+---
+
+Como será Salvo:
 output/example.com-YYYYMMDD_HHMMSS/
 
 
@@ -49,8 +51,5 @@ output/example.com-YYYYMMDD_HHMMSS/
 
 Use apenas em ambientes autorizados.
 O autor não se responsabiliza por uso indevido.
-
----
-
 
 
